@@ -25,6 +25,74 @@ Training Neural Network:
     Use the main.py for starting the experiment. The choice of neural network, dataset, batchsize and other such hyperparameters
     can be set here. 
 
+Hyperparameters used for each network for the respective dataset:
+
+LARa MoCap:
+            CNN-IMU network:
+                learning rate: 0.001
+                Batch Size: 100
+                Epoch: 10
+
+            LSMT network:
+                learning rate: 0.001
+                batch size: 100
+                Epoch: 15
+
+            Transformer (cnn-transformer): 
+                learning rate: 0.001    
+                batch size: 100 
+                Epoch: 30
+
+Mobiact:
+            CNN network:
+                learning rate: 0.001
+                batch size: 100
+                Epoch: 30
+
+            LSTM network: 
+                learning rate: 0.001
+                batch size: 50
+                Epoch: 15
+
+            Transformer (cnn-transformer):
+                learning rate: 0.001
+                Batch Size: 50
+                Epoch: 15
+
+MotionSense: 
+            CNN network:
+                learning rate: 0.001
+                batch size: 50
+                Epoch: 30
+
+            LSTM network: 
+                learning rate: 0.001
+                Batch size: 100
+                learning rate: 30
+
+            Transformer (cnn-transforemr):
+                learning rate: 0.001
+                bathc size: 100
+                learning rate: 15
+
+Sisfall:
+            CNN network: 
+                learning rate: 0.001
+                batch size: 50
+                Epoch: 50
+
+            LSTM network:
+                learning rate: 0.001
+                batch size: 50
+                Epoch: 15
+
+            Transformer (cnn-transformer):
+                learning rate: 0.001
+                batch size: 100
+                Epoch: 30
+
+                
+
 
 
 
